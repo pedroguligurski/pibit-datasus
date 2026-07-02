@@ -1,0 +1,12 @@
+# Liste abaixo as colunas que você deseja MANTER no arquivo CSV final.
+# Escreva um nome de coluna por linha.
+# Linhas que começam com '#' ou linhas vazias serão ignoradas.
+#
+# Exemplo (remova os '#' das colunas que deseja manter):
+# CODMUNRES
+# DTOBITO
+# CAUSABAS
+# IDADE
+# SEXO
+# RACACOR
+#
