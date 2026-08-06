@@ -1,19 +1,9 @@
-from conversor import DataConversor
-from datasus import DataSUSCollector
+from menu import Menu
 
 
 def main():
-    collector = DataSUSCollector()
-
-    # Captura a lista de arquivos validados e baixados nesta execução
-    arquivos_baixados = collector.get_files()
-
-    # Só inicializa o conversor se houver arquivos para processar
-    if arquivos_baixados:
-        conversor = DataConversor()
-        conversor.convert_files(arquivos_baixados)
-    else:
-        print("\nNenhum arquivo novo ou filtrado para conversão.")
+    menu = Menu()
+    menu.executar()
 
 
 if __name__ == "__main__":
