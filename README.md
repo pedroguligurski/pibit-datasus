@@ -30,13 +30,13 @@ source venv/bin/activate
 **Windows:**
 
 ``` powershell
-pip install -r requirements.txt
+python -m pip install -r .\requirements.txt
 ```
 
 **macOS / Linux:**
 
 ``` bash
-pip3 install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 > Caso `pip3` não esteja disponível, utilize `pip`.
@@ -46,17 +46,17 @@ pip3 install -r requirements.txt
 **Windows:**
 
 ``` powershell
-python main.py
+python .\src\main.py
 ```
 
 **macOS / Linux:**
 
 ``` bash
-python3 main.py
+python3 src/main.py
 ```
 
 > Se o comando `python3` não existir no seu ambiente, utilize `python`.
 
 ------------------------------------------------------------------------
 
-Pronto! O sistema será iniciado executando `main.py`.
+Pronto! O sistema será iniciado executando `src/main.py`.
